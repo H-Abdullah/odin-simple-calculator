@@ -18,13 +18,13 @@ function inputNumbers() {
 }
 
 Array.from(clears).forEach(clear => {
-  clear.addEventListener('click', clearSomething());
+  clear.addEventListener('click', clearSomething);
 });
 
 Array.from(operations).forEach(operation => {
-  operation.addEventListener('click', operand());
+  operation.addEventListener('click', operand);
 });
 
 Array.from(numbers).forEach(number => {
-  number.addEventListener('click', inputNumbers());
+  number.addEventListener('click', inputNumbers);
 });
