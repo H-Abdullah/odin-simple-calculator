@@ -2,6 +2,9 @@
 <head lang="en">
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500&display=swap" rel="stylesheet">
   <script src="scripts.js" defer></script>
   <title>Simple Calculator</title>
 </head>
@@ -14,38 +17,37 @@
     </div>
     <div id="buttons-container" class="container">
       <div id="first-row" class="row-button-container">
-        <div><button class="button clear">AC</button></div>
-        <div><button class="button clear">C</button></div>
-        <div><button class="button clear">CE</button></div>
-        <div class="more-gap"><button class="button operation">&times;<sup>2</sup></button></div>
-        <div><button class="button operation">&times;!</button></div>
+        <div><button id="btnAC" class="button clear">AC</button></div>
+        <div><button id="btnCE" class="button clear">CE</button></div>
+        <div class="more-gap"><button class="button operation">&divide;</button></div>
+        <!-- <div class="more-gap"><button class="button operation">&times;<sup>2</sup></button></div>
+        <div><button class="button operation">&times;!</button></div> -->
       </div>
       <div id="second-row" class="row-button-container">
         <div><button class="button number">7</button></div>
         <div><button class="button number">8</button></div>
         <div><button class="button number">9</button></div>
-        <div class="more-gap"><button class="button operation">&PlusMinus;</button></div>
-        <div><button class="button operation">&percnt;</button></div>
+        <div class="more-gap"><button class="button operation">&times;</button></div>
+        <!-- <div class="more-gap"><button class="button operation">&PlusMinus;</button></div>
+        <div><button class="button operation">&percnt;</button></div> -->
       </div>
       <div id="third-row" class="row-button-container">
         <div><button class="button number">4</button></div>
         <div><button class="button number">5</button></div>
         <div><button class="button number">6</button></div>
-        <div class="more-gap"><button class="button operation">&times;</button></div>
-        <div><button class="button operation">&divide;</button></div>
+        <div class="more-gap"><button class="button operation">&minus;</button></div>
       </div>
       <div id="fourth-row" class="row-button-container">
         <div><button class="button number">1</button></div>
         <div><button class="button number">2</button></div>
         <div><button class="button number">3</button></div>
         <div class="more-gap"><button class="button operation">&plus;</button></div>
-        <div><button class="button operation">&minus;</button></div>
       </div>
       <div id="fifth-row" class="row-button-container">
         <div><button class="button number">0</button></div>
         <div><button class="button number">00</button></div>
         <div><button class="button number">.</button></div>
-        <div class="more-gap"><button id="equal" class="button operation">&equals;</button></div>
+        <div class="more-gap"><button class="button operation">&equals;</button></div>
       </div>
     </div>
   </div>
